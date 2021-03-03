@@ -1,0 +1,59 @@
+/*=========Google Font===========*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+a:link{
+    text-decoration: none;
+}
+
+/* ===========Cover image========== */
+.cover-img{
+    height: 80vh;
+    background: url("images/oou.jpg") no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+    background: rgba(0, 0, 128, 0.6);
+    height: 80vh;
+}
+
+.center-align{
+    display: grid;
+    place-items: center;
+    color: #fff;
+}
+
+.overlay-content{
+    text-align: center;
+}
+
+.cover-txt{
+    font-size: 6rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* =========2nd section========== */
+.section-2{
+    height: 50vh;
+}
+.button{
+    padding: 20px 100px;
+    background-color: #000080;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.reg-btn{
+    background-color: #FFC331;
+}
+
+/* ==========footer========= */
+footer{
+    height: 80vh;
+    background-color: #000080;
+}
