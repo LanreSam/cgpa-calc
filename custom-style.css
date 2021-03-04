@@ -46,14 +46,35 @@ a:link{
     background-color: #000080;
     color: #fff;
     font-size: 1.5rem;
+    border: none;
 }
 
-.reg-btn{
-    background-color: #FFC331;
+.button:hover{
+    background-color: #87CEEB;
+    color: #fff;
+}
+
+.login-btn{
+    background: none;
+    color: #000080;
+    border: 2px solid #000080;
+}
+
+.login-btn:hover{
+    border: none;
 }
 
 /* ==========footer========= */
 footer{
-    height: 80vh;
     background-color: #000080;
+}
+
+footer p{
+    color: #87CEEB;
+}
+
+.submit-btn{
+    background-color: #fff;
+    color: #000080;
+    padding: 7px 30px;
 }
