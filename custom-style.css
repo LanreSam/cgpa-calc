@@ -12,14 +12,14 @@ a:link{
 
 /* ===========Cover image========== */
 .cover-img{
-    height: 80vh;
+    height: 90vh;
     background: url("images/oou.jpg") no-repeat;
     background-size: cover;
 }
 
 .overlay{
     background: rgba(0, 0, 128, 0.6);
-    height: 80vh;
+    height: 90vh;
 }
 
 .center-align{
@@ -30,6 +30,7 @@ a:link{
 
 .overlay-content{
     text-align: center;
+    width: 70%;
 }
 
 .cover-txt{
@@ -50,12 +51,15 @@ a:link{
     background-color: #000080;
     color: #fff;
     font-size: 1.5rem;
+    font-weight: bold;
     border: none;
+    transition: all 0.7s;
 }
 
 .button:hover{
     background-color: #87CEEB;
     color: #fff;
+    transform: translateY(-20px);
 }
 
 .login-btn{
@@ -82,4 +86,9 @@ footer p{
     color: black;
     padding: 7px 30px;
     font-size: 1.2rem;
+    transition: all 0.2;
+}
+
+.submit-btn:hover{
+    transform: none;
 }
