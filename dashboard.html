@@ -45,9 +45,79 @@
                 <div class="row">
                     <h1 class="text-center p-3 mb-4">Welcome SCI/17/18/0494</h1>
                     <div class="d-grid d-lg-flex justify-content-around mb-5">
-                        <a href="#" class="button">Add Grade</a>
+                        <!--Add Grade button-->
+                        <a href="#" class="button btn-success" data-bs-toggle="modal" data-bs-target="#addGrademodal">Add Grade</a>
+                        <!-- Add Grade Modal -->
+                        <div class="modal fade" id="addGrademodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Add Grade</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <form method="POST" action="" class="p-3">
+                                        <div class="form-group">
+                                            <label for="course_code">Course code</label>
+                                            <input type="text" name="course_code" class="form-control" placeholder="Enter course code" required/>
+                                        </div>
+                                        <div class="form-group my-4">
+                                            <label for="score">Score</label>
+                                            <input type="text" name="score" class="form-control" placeholder="Enter score" required/>
+                                        </div>
+                                        <div class="form-group my-4">
+                                            <label for="course_unit">Course unit</label>
+                                            <input type="text" name="course_unit" class="form-control" placeholder="Enter course unit" required/>
+                                        </div>
+                                        <div class="d-lg-flex my-5 justify-content-between d-md-block">
+                                            <div class="form-group">
+                                                <select name="semester" class="btn btn-warning px-5 py-2">
+                                                    <option value="" disabled selected>Choose semester</option>
+                                                    <option value="HARMATTAN">HARMATTAN</option>
+                                                    <option value="RAIN">RAIN</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-4"></div>
+                                            <div class="form-group">
+                                                <select name="level" class="btn btn-primary px-5 py-2">
+                                                    <option value="" disabled selected>Choose level</option>
+                                                    <option value="100">100</option>
+                                                    <option value="200">200</option>
+                                                    <option value="300">300</option>
+                                                    <option value="400">400</option>
+                                                    <option value="500">500</option>
+                                                    <option value="600">600</option>
+                                                    <option value="700">700</option>
+                                                    <option value="800">800</option>
+                                                    <option value="900">900</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <input type="submit" value="Submit" class="btn btn-success px-5 py-2"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                         <div class="mb-4"></div>
-                        <a href="#" class="button del-btn">Delete Table</a>
+                        <!--Delete Button-->
+                        <a href="#" class="button btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete Table</a>
+                        <!-- Delete Modal -->
+                        <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Delete Database</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                Are You sure you want to delete all records on your dashboard?
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Yes</button>
+                                <button type="button" class="btn btn-secondary">No</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                     </div>
                     
                 </div>
