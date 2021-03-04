@@ -37,6 +37,10 @@ a:link{
     font-family: 'Bebas Neue', cursive;
 }
 
+.cover-logo{
+    width: 200px;
+}
+
 /* =========2nd section========== */
 .section-2{
     height: 50vh;
