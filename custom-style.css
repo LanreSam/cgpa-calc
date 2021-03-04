@@ -72,6 +72,19 @@ a:link{
     border: none;
 }
 
+/* 
+=================
+DASHBOARD CSS CODES
+=================
+*/
+.nav-bg{
+    background-color: #000080;
+}
+
+.dashboard-section{
+    height: 80vh;
+}
+
 /* ==========footer========= */
 footer{
     background-color: #000080;
