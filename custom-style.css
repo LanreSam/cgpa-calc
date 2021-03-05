@@ -151,3 +151,9 @@ footer p{
 .submit-btn:hover{
     transform: none;
 }
+
+@media screen and (min-width: 500){
+    .cover-txt{
+        font-size: 3rem;
+    }
+}
