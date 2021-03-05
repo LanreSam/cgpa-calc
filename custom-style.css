@@ -37,7 +37,7 @@ a:link{
 }
 
 .cover-logo{
-    width: 150px;
+    width: 120px;
 }
 
 /* =========2nd section========== */
@@ -172,8 +172,8 @@ footer p{
 }
 
 @media screen and (min-width: 400px){
-    .cover-logo{
+    /* .cover-logo{
         width: 120px;
         padding-top: 20px;
-    }
+    } */
 }
