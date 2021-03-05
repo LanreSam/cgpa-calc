@@ -97,7 +97,7 @@ DEVELOPER CSS CODES
 
 .dev-section-2{
     background-color: #000080;
-    height: 70vh;
+    height: 100vh;
     color: #fff;
 }
 
@@ -164,6 +164,11 @@ footer p{
     }
     .dev-name{
         font-size: 3rem;
+    }
+    .dev-section-2{
+        background-color: #000080;
+        height: 70vh;
+        color: #fff;
     }
     .button{
         padding: 20px 100px;
