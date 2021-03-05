@@ -152,7 +152,7 @@ footer p{
     transform: none;
 }
 
-@media screen and (min-width: 500){
+@media screen and (min-width: 400px){
     .cover-txt{
         font-size: 3rem;
     }
