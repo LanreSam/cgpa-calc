@@ -121,6 +121,16 @@ DEVELOPER CSS CODES
     transform: none;
 }
 
+
+/* 
+=================
+HOW IT WORKS
+=================
+*/
+.hiw{
+    margin-top: 5rem;
+}
+
 /* ==========footer========= */
 footer{
     background-color: #000080;
