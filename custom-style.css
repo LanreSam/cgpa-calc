@@ -102,7 +102,6 @@ DEVELOPER CSS CODES
 }
 
 .dev-name{
-    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -161,6 +160,9 @@ footer p{
     .dev-section{
         height: 80vh;
         margin-top: 5rem;
+    }
+    .dev-name{
+        font-size: 3rem;
     }
     .button{
         padding: 20px 100px;
