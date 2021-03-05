@@ -95,11 +95,6 @@ DEVELOPER CSS CODES
     margin-top: 5rem;
 }
 
-.dev-txt{
-    letter-spacing: 0.1rem;
-    font-size: 1.5rem;
-}
-
 .dev-section-2{
     background-color: #000080;
     height: 70vh;
@@ -158,10 +153,17 @@ footer p{
     .section-2{
         height: 50vh;
     }
+    .dev-txt{
+        letter-spacing: 0.1rem;
+        font-size: 1.5rem;
+    }
+
+    .dev-section{
+        /* height: 80vh; */
+        margin-top: 5rem;
+    }
 }
 
 @media screen and (min-width: 400px){
-    /* .cover-txt{
-        font-size: 3rem;
-    } */
+
 }
