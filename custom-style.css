@@ -45,7 +45,7 @@ a:link{
     height: 80vh;
 }
 .button{
-    padding: 20px 100px;
+    padding: 10px 90px;
     background-color: #000080;
     color: #fff;
     font-size: 1.5rem;
@@ -91,7 +91,7 @@ DEVELOPER CSS CODES
 =================
 */
 .dev-section{
-    height: 80vh;
+    /* height: 80vh; */
     margin-top: 5rem;
 }
 
@@ -159,8 +159,11 @@ footer p{
     }
 
     .dev-section{
-        /* height: 80vh; */
+        height: 80vh;
         margin-top: 5rem;
+    }
+    .button{
+        padding: 20px 100px;
     }
 }
 
