@@ -52,7 +52,7 @@ a:link{
     font-size: 1.5rem;
     font-weight: bold;
     border: none;
-    transition: all 0.7s;
+    transition: all 0.5s;
 }
 
 .button:hover{
@@ -103,13 +103,22 @@ DEVELOPER CSS CODES
 
 .dev-section-2{
     background-color: #000080;
-    height: 50vh;
+    height: 70vh;
     color: #fff;
 }
 
 .dev-name{
     font-size: 3rem;
     font-weight: bold;
+}
+
+.pay-btn{
+    background-color: #fff;
+    color: #000080;
+}
+
+.pay-btn:hover{
+    transform: none;
 }
 
 /* ==========footer========= */

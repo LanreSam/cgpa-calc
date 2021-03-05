@@ -30,7 +30,7 @@
                 <a class="nav-link" aria-current="page" href="dashboard.html">Dashboard</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">How It works</a>
+                <a class="nav-link" href="how-it-works.html">How It works</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="developer.html">Developer</a>
@@ -47,7 +47,7 @@
               <h1 class="dev-name">Ezeche Lanre Samuel</h1>
               <p class="my-5 dev-txt">
                   A Software developer that specializes in building Web applications and Desktop applications.
-                  He's currently a final year Computer Science undergraduate at <b><u><a href="#">Olabisi Onabanjo University</a></u></b> . <br/>
+                  He's currently a final year Computer Science undergraduate at <b><u><a href="#">Olabisi Onabanjo University</a></u></b>. <br/>
                   Do you wish to know more about him?
               </p>
               <a href="https://ezechelanre.herokuapp.com" class="button">Visit Website</a>
@@ -55,10 +55,22 @@
         </div>
 
         <div class="">
-          <div class="dev-section-2 p-5">
+          <div class="dev-section-2 p-5 center-align">
             <div class="container">
-              <h1 class="dev-name">Buy Me a Coffee</h1>
-              <p>Enter number of cups of coffee you wish to buy me below</p>
+              <h1 class="dev-name">Buy Me a Coffee <i class="bi-cup-fill" style="color: #754138;"></i></h1>
+              <p>Enter number of cups of coffee you wish to buy for me below</p>
+
+              <form class="text-white d-lg-flex justify-content-between mt-5">
+                <div class="mb-3">
+                    <label for="number" class="form-label">Number of cups</label>
+                    <input type="number" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="price" class="form-label">Price</label>
+                    <input type="number" class="form-control" disabled>
+                </div>
+                <button type="submit" class="button pay-btn">Pay</button>
+              </form>
             </div>
           </div>
         </div>
