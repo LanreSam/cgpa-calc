@@ -85,6 +85,7 @@ DASHBOARD CSS CODES
     margin-top: 10rem;
 }
 
+
 /* 
 =================
 DEVELOPER CSS CODES
@@ -93,7 +94,22 @@ DEVELOPER CSS CODES
 .dev-section{
     height: 80vh;
     margin-top: 5rem;
-    /* background-color: #87CEEB; */
+}
+
+.dev-txt{
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+}
+
+.dev-section-2{
+    background-color: #000080;
+    height: 50vh;
+    color: #fff;
+}
+
+.dev-name{
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 /* ==========footer========= */
