@@ -130,10 +130,6 @@ footer{
     background-color: #000080;
 }
 
-footer p{
-    color: #87CEEB;
-}
-
 .submit-btn{
     background-color: #fff;
     color: black;
@@ -177,11 +173,4 @@ footer p{
     .cover-logo{
         width: 200px;
     }
-}
-
-@media screen and (min-width: 400px){
-    /* .cover-logo{
-        width: 120px;
-        padding-top: 20px;
-    } */
 }
